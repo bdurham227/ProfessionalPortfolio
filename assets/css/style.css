@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --body-font-size: 1.5em;
+    --body-font-color: #fff;
+    --heading-font-color: #fff;
+    --body-background-color: #404040;
+    --body-font-family: "Times New Roman","serif";
+    --heading-font-family: "Times New Roman","serif";
+    --dark-color: gray;
+    --light-color: #fff;
+}
+body {
+    background-color:var(--body-background-color);
+    color: var(--body-font-color);
+    font-family:var(--body-font-family);
+    font-size: var(--body-font-size);
+}
+a {
+    text-decoration: none;
+}
+.nav {
+    width: 100%;
+    font-size: 1.2rem;
+    font-family:var(--body-font-family);
+    position: relative;
+    top: -20px;
+    right: 0;
+    display: inline-flex;
+    flex-flow: row wrap;
+    background-color:var(--dark-color);
+}
+.name {
+    font-family: var(--heading-font-family);
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 3em 1.5em;
+    border: 2px solid white;
+    padding: 10px;
+    
+    
+}
+.nav-name {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    
+    
+}
+.nav-subname{
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-left: 4.2rem;
+    letter-spacing: 1px;
+}
+.nav-list {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.nav-item {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+.nav-link {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:var(--light-color);
+    margin: 1em;
+}
+.main {
+    width: 100%;
+}
+section:not(.hero) {
+    padding: 5em 0;
+}
+.hero {
+    height: 100vh;
+    width: 100%;
+    background:url("../images/brieandi.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+}
+.about {
+    margin-top: -10px;
+    padding: 3rem 0;
+   
+}
+.about-container {
+
+}
+.about-text{
+
+}
+.about-subtext 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.nav {
+    width: 20rem;
+    height: 100vh;
+    background-color:var(--dark-color);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index:1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+}
+
+.name {
+    font-family: var(--heading-font-family);
+    margin: 2rem 0;
+    text-align: center;
+    color:var(--#fff);
+    
+}
+.nav-name {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.nav-subname {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.nav-link {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:var(--light-color);
+    margin: 2rem 0;
+    padding: 1rem;
+}
+.main {
+    width: calc(100 - 20rem);
+}
+section:not(.hero) {
+    padding: 5erm 0;
+}
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image:url("../images/brieandi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+}
+.about-container {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding:0 5rem;
+}
+.about {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.about-text{
+    font-size:var(--body-font-size);
+    color:var(--body-font-color);
+    font-family:var(--body-font-family);
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem 0;
+    margin-left: 10rem;
+}
+.about-subtext {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+.work {
+   margin-left: 6rem;
+   padding: 2rem 0;
+
+}
+.work-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 7rem;;
+    margin-left: 10em;
+    
+    
+}
+.work-text {
+    font-size: var(--body-font-size);
+    font-family:var(--body-font-family);
+    text-align: center;
+    margin-left: 50px;
+    text-decoration: underline;
+
+}
+*/
