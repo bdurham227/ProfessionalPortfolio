@@ -260,6 +260,7 @@ section:not(.hero) {
     padding: 1rem;
     border: 2px solid white;
     margin: 10px;
+    background-color: #A0A0A0;
     
 }
 .box-header {
@@ -270,10 +271,6 @@ section:not(.hero) {
     margin: 1rem;
     transition: all 2s ease-in-out;
 }
-
-
-
-
 
 /*added class thumbnail to the html and created a css element to achieve the work images transforming in scale when the user's mouse hovers over*/
 .thumbnail {
@@ -306,16 +303,13 @@ section:not(.hero) {
 .contact-text {
     padding: 20px;
     margin: 10px 10px 30px 20px;
-    order: 0;
     text-align: center;
     border: 2px solid white;
     width: 20%;
     text-decoration: underline;
-
 }
 .contact-container {
     text-align: center;
-
 }
 .contact-subtext {
     margin: 10px;
@@ -331,7 +325,30 @@ footer {
 footer p {
     font-size: 10px;
 }
-/*@media screen and (max-width:600px){
+
+.mybtn {
+    padding: 10px;
+    margin: 15px;
+    text-decoration: none;
+    color: #404040;
+    background-color:var(--dark-color);
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    transition: transform 0.4s;
+    border-radius: 20px;
+    background-image: linear-gradient(#E0FFFF,#404040);
+}
+.mybtn:hover{
+    background-color: #A0A0A0;
+    transform: scale(0.9);
+}
+
+
+
+/*Media Queries for Reponsive Web Design Layout*/
+
+@media screen and (max-width:600px){
     header,
     body {
         width:100%
@@ -342,16 +359,33 @@ footer p {
         top:0;
         left: -25;
     }
+    .contact-text {
+        font-size: 15pxl
+        padding: 5px;
+    }
    
 }
 @media screen and (max-width: 768px) {
     header,
-    body {
-        width: 100%;
+    body,
+    .work-container,
+    .contact,
+    .contact-container {
+        width: 50%;
     }
     .name {
         width: 50%;
-    }*/
+    }
+    .about-text {
+        width: 50%;
+        padding: 0px;
+    }
+    .about-subtext {
+        width: 50%;
+        word-break: break-word;
+        font-size: 15px;
+        padding: 5px;
+    }
     
 
 
