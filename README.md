@@ -46,11 +46,11 @@ Desktop screen:
 It was important for me to make this portfolio a responsive web layout. Below I will attach images. The webpage was designed for mobile, tablet and desktop users alike and the pages layout will change respectively to match each user's preferred or chosen viewing platform.
 
 Mobile devices screen example:
-![body-section](assets\images\mobilescreen.png "Body Section")
+![body-section](assets/images/mobilescreen.png "Body Section")
 Tablet screen:
-![body-section](assets\images\tabletpagescreen.png "Body Section")
+![body-section](assets/images/tabletpagescreen.png "Body Section")
 Desktop devices screen example:
-![body-section](assets\images\fullscreenshot.png "Body Section")
+![body-section](assets/images/fullscreenshot.png "Body Section")
 
 ### Explore the rest of the page by scrolling up or down.
 
