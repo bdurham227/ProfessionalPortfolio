@@ -370,7 +370,6 @@ footer p {
     .nav-subname{
         text-align: center;
         margin: auto;
-        
     }
     .about-text {
         width: 50%;
@@ -380,6 +379,10 @@ footer p {
         width: 50%;
         word-break: break-word;
         font-size: 15px;
+        padding: 5px;
+    }
+    .work-text{
+        text-align: center;
         padding: 5px;
     }
     .contact,
