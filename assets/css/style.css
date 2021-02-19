@@ -350,31 +350,27 @@ footer p {
 
 @media screen and (max-width:600px){
     header,
-    body {
-        width:100%
-    }
-    .name {
-        width: 50%;
-        position: relative;
-        top:0;
-        left: -25;
-    }
-    .contact-text {
-        font-size: 15pxl
-        padding: 5px;
-    }
-   
-}
-@media screen and (max-width: 768px) {
-    header,
     body,
-    .work-container,
-    .contact,
-    .contact-container {
+    .work-container {
         width: 50%;
+        justify-content: center;
+    }
+    .nav-list,
+    .nav-item,
+    .nav {
+        flex-flow:column wrap;
+        align-items: center;
+        width: 50%;
+        text-align: center;  
     }
     .name {
-        width: 50%;
+        width: 33%;
+    }
+    .nav-name,
+    .nav-subname{
+        text-align: center;
+        margin: auto;
+        
     }
     .about-text {
         width: 50%;
@@ -386,6 +382,64 @@ footer p {
         font-size: 15px;
         padding: 5px;
     }
+    .contact,
+    .contact-container {
+        width: 100%;
+        flex-flow: column wrap;
+    }
+    .contact-text {
+        width: 33%;
+    }
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header,
+    body,
+    .work-container {
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-list,
+    .nav-item,
+    .nav {
+        flex-flow:column wrap;
+        align-items: center;
+        width: 100%;
+        text-align: center;  
+    }
+    .name {
+        width: 33%;
+    }
+    .nav-name,
+    .nav-subname{
+        text-align: center;
+        margin: auto;
+        
+    }
+    .about-text {
+        width: 50%;
+        padding: 0px;
+    }
+    .about-subtext {
+        width: 50%;
+        word-break: break-word;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .contact,
+    .contact-container {
+        width: 100%;
+        flex-flow: column wrap;
+    }
+    .contact-text {
+        width: 33%;
+    }
+    
     
 
 
