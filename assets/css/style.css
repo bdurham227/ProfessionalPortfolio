@@ -173,11 +173,6 @@ a {
     background-attachment: scroll;
 }
 
-
-
-
-
-
 /*created this to add padding as to not affect the image speficially*/
 section:not(.hero) {
     padding: 5em 0;

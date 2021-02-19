@@ -10,12 +10,17 @@
             <script src="myScript.js"></script>-->
         
         
-        
+        <!--My main goal when creating this Portfolio was to keep inline with semantic HTML tags to make the site follow accessibility standards.-->
+
+        <!--Additionally I found this portfolio to be a great design challenge and opportunity to test my knowledge of using flexboxes and working with the different
+        alignment or justification properties to somewhat achieve the vision I was thinking about-->
+
     </head>
 <body>
 
     <header>
-
+        <!--Created nav bar here. I tried to create multiple classes to achieve the layout I was thinking about so I could style them individually-->
+        <!--Nav bar links that will redirect the view to the corresponding ID within the page -->
     <nav class="nav">
         <article class="name">
            <h1 class="nav-name">Benjamin Durham</h1>
@@ -43,10 +48,12 @@
     <!--main content containing background image-->
     <main class="main">
         <section class="hero">
+            <!--background image of myself with my fiance lives here-->
             <img class="hero" src="assets/images/brieandi.jpg" alt="background image of my fiance and I" title="adorable picture of my fiance and I" />
         </section>
     
     <!--section called "About" with an id called "About" to connect the relative url pathing to the nav bar-->
+    <!--this section contains the About information.-->
     <section class="about" id="About">
         <article class="about-container">
             
@@ -60,9 +67,10 @@
     <section class="work" id="Work">
 
         <h2 class="work-text">Work</h2>
-
+        <!--work container that wraps around the below working images with flex-->
         <article class="work-container">
             <!--figure tag containing first project image-->
+            <!--added classes "work-box" and "box-header" to position the boxes with flex how I wanted them to look and to have headings on each box-->
             <figure class="work-box">
                 <h3 class="box-header">Scratch Project</h3>
          <a href="https://scratch.mit.edu/projects/475831789/" target=" "><img src="./assets/images/2021-02-18 (2).png" class="thumbnail" alt="link to my first project made on Scratch" title=" Scratch project page"></a>
@@ -95,7 +103,7 @@
     <section class="contact" id="Contact">
 
         <h2 class="contact-text">Let's Work Together</h2>
-
+        <!--Made an article class called contact-container to hold three buttons I created to make the contact information a bit more intersting and interactive.-->
         <article class="contact-container">
          <p>
              <button type="button" class="mybtn"><a href="mailto:bdurham227@gmail.com" class="contact-subtext" alt="clickable link to email me">Email</a></button>
