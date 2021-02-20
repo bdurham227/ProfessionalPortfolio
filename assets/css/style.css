@@ -59,7 +59,7 @@ a {
     100% {opacity:1;}
 }/*end of name animation*/
 
-
+/*Start of Navigation Css*/
 .nav-name {
     text-transform: uppercase;
     font-size: 1.2em;
@@ -98,8 +98,6 @@ a {
     /*50% {opacity:0.5;}*/ /*commented out the 50% opacity because I felt the ease was too slow but can be uncommented to see full effect or to modify for future use*/
     100% {opacity:1;}
 }
-
-
 .nav-link2 {
     font-size: 1.2em;
     text-transform: uppercase;
@@ -157,14 +155,14 @@ a {
     animation: nav-link5 ease 11s;
     -webkit-animation: nav-link5 ease 11s;
     animation-delay: 0.5s;
-    animation-iteration-count: 1;
-    
+    animation-iteration-count: 1; 
 }
 @keyframes nav-link5 {
     0% {opacity:0;}
     /*50% {opacity:0.5;}*/ /*commented out the 50% opacity because I felt the ease was too slow but can be uncommented to see full effect or to modify for future use*/
     100% {opacity:1;}
-}/*end of nav links animation*/
+}
+/*end of nav links animation*/
 
 
 .main {
@@ -232,6 +230,15 @@ section:not(.hero) {
     align-items: center;
    
 }
+.work-text {
+    width: 20%;
+    padding: 20px;
+    margin: 10px 10px 100px 20px;
+    order: 0;
+    text-align: center;
+    border: 2px solid white;
+    text-decoration: underline;
+}
 .work-container {
     display: flex;
     flex-wrap: wrap;
@@ -270,7 +277,7 @@ section:not(.hero) {
 /*added class thumbnail to the html and created a css element to achieve the work images transforming in scale when the user's mouse hovers over*/
 .thumbnail {
     padding: 10px;
-    transition: transform .2s
+    transition: transform .2s;
     width: 500px;
     height: 500px;
     display: block;
@@ -279,15 +286,6 @@ section:not(.hero) {
     transform: scale(1.3);
 }
 
-.work-text {
-    width: 20%;
-    padding: 20px;
-    margin: 10px 10px 100px 20px;
-    order: 0;
-    text-align: center;
-    border: 2px solid white;
-    text-decoration: underline;
-}
 /*Start of Contact Styles*/
 .contact {
     display: flex;
@@ -297,10 +295,10 @@ section:not(.hero) {
 }
 .contact-text {
     padding: 20px;
-    margin: 10px 10px 30px 20px;
+    margin-bottom: 8rem;
     text-align: center;
     border: 2px solid white;
-    width: 20%;
+    width: 25%;
     text-decoration: underline;
 }
 .contact-container {
@@ -347,7 +345,7 @@ footer p {
     header,
     body,
     .work-container {
-        width: 50%;
+        width: 60%;
         justify-content: center;
     }
     .nav-list,
@@ -380,18 +378,10 @@ footer p {
         text-align: center;
         padding: 5px;
     }
-    .contact,
-    .contact-container {
-        width: 100%;
-        flex-flow: column wrap;
-    }
-    .contact-text {
-        width: 33%;
-    }
+    
+  
 
-
-
-
+    
 
 
 
@@ -401,6 +391,7 @@ footer p {
     .work-container {
         width: 100%;
         justify-content: center;
+        overflow-x: hidden;
     }
     .nav-list,
     .nav-item,
@@ -409,6 +400,7 @@ footer p {
         align-items: center;
         width: 100%;
         text-align: center;  
+        margin: 10px;
     }
     .name {
         width: 33%;
@@ -429,14 +421,10 @@ footer p {
         font-size: 15px;
         padding: 5px;
     }
-    .contact,
-    .contact-container {
-        width: 100%;
-        flex-flow: column wrap;
-    }
-    .contact-text {
-        width: 33%;
-    }
+    
+        
+    
+    
     
     
 
