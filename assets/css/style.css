@@ -177,14 +177,16 @@ section:not(.hero) {
 }
 /*Background Image*/
 .hero {
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
-    /*background:url("../images/brieandi.jpg");*/ /*commented out because it was overlapping with the <img tag on my html going to leave for now to revisit later*/
+    background:url("../images/brieandi.jpg"); /*commented out because it was overlapping with the <img tag on my html going to leave for now to revisit later*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    margin-top: -10px;
+    margin-top: -20px;
+    
+    
 }
 /*About Styles*/
 .about {
@@ -343,18 +345,26 @@ footer p {
 
 @media screen and (max-width:600px){
     header,
-    body,
     .work-container {
+        display: flex;
+        flex-flow: column wrap;
         width: 60%;
         justify-content: center;
+        align-content: center;
+    }
+    body {
+        width: 100%;
     }
     .nav-list,
     .nav-item,
     .nav {
-        flex-flow:column wrap;
-        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
         width: 50%;
+        height: 50%;
         text-align: center;  
+        font-size: 1rem;
     }
     .name {
         width: 33%;
@@ -363,6 +373,7 @@ footer p {
     .nav-subname{
         text-align: center;
         margin: auto;
+        font-size: 1rem;
     }
     .about-text {
         width: 50%;
@@ -378,6 +389,16 @@ footer p {
         text-align: center;
         padding: 5px;
     }
+    /*{
+        background: url("../images/scaledbackground.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }*/
+    .contact-text{
+        padding: 5px;
+    }
     
   
 
@@ -390,8 +411,12 @@ footer p {
     body,
     .work-container {
         width: 100%;
+        display: flex;
+        flex-flow: column wrap;
         justify-content: center;
+        align-content: center;
         overflow-x: hidden;
+        margin: 5px;
     }
     .nav-list,
     .nav-item,
@@ -400,7 +425,7 @@ footer p {
         align-items: center;
         width: 100%;
         text-align: center;  
-        margin: 10px;
+        
     }
     .name {
         width: 33%;
