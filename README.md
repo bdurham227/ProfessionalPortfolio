@@ -22,8 +22,6 @@ This was one of my first times ever building a webpage from scratch. It was a gr
 You made it! Below you will find a nice little image of my webpage portfolio and links on how to travel there!
 
 
-Desktop screen:
-[Top-Page-Area](assets/images/fullscreenshot.png "Top-Page-Area")
 
 
 ### Click link to open in your browser.
