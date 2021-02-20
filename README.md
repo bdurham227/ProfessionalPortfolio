@@ -49,20 +49,42 @@ It was important for me to make this portfolio a responsive web layout. Below I 
 
 
 
-Desktop devices screen example:
+#### Desktop devices screen example:
+
+
+
+
+
+
+
+
+
 ![body-section](assets/images/background1.png "body-section")
 
 
 
 
 
-Tablet screen:
+#### Tablet screen:
+
+
+
+
+
+
 ![body-section](assets/images/background2.png "body-section")
 
 
 
 
-Mobile devices screen example:
+#### Mobile devices screen example:
+
+
+
+
+
+
+
 ![body-section](assets/images/background3.png "body-section")
 
 
