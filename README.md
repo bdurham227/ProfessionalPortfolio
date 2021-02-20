@@ -23,12 +23,14 @@ You made it! Below you will find a nice little image of my webpage portfolio and
 
 
 Desktop screen:
-![Top-Page-Area](assets\images\fullscreenshot.png "Top-Page-Area")
+[Top-Page-Area](assets/images/fullscreenshot.png "Top-Page-Area")
 
 
 ### Click link to open in your browser.
-[github pages site] https://bdurham227.github.io/ProfessionalPortfolio/
-[github repo site] https://github.com/bdurham227/ProfessionalPortfolio
+
+[github-pages-site] https://bdurham227.github.io/ProfessionalPortfolio/
+
+[github-repo-site] https://github.com/bdurham227/ProfessionalPortfolio
 
 
 
@@ -46,11 +48,11 @@ Desktop screen:
 It was important for me to make this portfolio a responsive web layout. Below I will attach images. The webpage was designed for mobile, tablet and desktop users alike and the pages layout will change respectively to match each user's preferred or chosen viewing platform.
 
 Mobile devices screen example:
-![body-section](assets/images/mobilescreen.png "Body Section")
+![body-section](assets\images\background3.png "body-section")
 Tablet screen:
-![body-section](assets/images/tabletpagescreen.png "Body Section")
+![body-section](assets\images\background2.png "body-section")
 Desktop devices screen example:
-![body-section](assets/images/fullscreenshot.png "Body Section")
+![body-section](assets\images\background1.png "body-section")
 
 ### Explore the rest of the page by scrolling up or down.
 
