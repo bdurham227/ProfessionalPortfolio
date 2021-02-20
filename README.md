@@ -42,17 +42,17 @@ I was really interested in incorporating animation into my page. Upon arriving o
 
 ### Here you will see a screenshot of the Navigation bar that will redirect users to the corresponding location on the page that they click to.
 Desktop screen:
-![nav-menu](assets\images\navbar.png "Navigational Menu")
+![nav-menu](assets/images/navbar.png "Navigational Menu")
 
 ### Wait...one last thing before you scroll!
 It was important for me to make this portfolio a responsive web layout. Below I will attach images. The webpage was designed for mobile, tablet and desktop users alike and the pages layout will change respectively to match each user's preferred or chosen viewing platform.
 
 Mobile devices screen example:
-![body-section](assets\images\background3.png "body-section")
+![body-section](assets/images/background3.png "body-section")
 Tablet screen:
-![body-section](assets\images\background2.png "body-section")
+![body-section](assets/images/background2.png "body-section")
 Desktop devices screen example:
-![body-section](assets\images\background1.png "body-section")
+![body-section](assets/images/background1.png "body-section")
 
 ### Explore the rest of the page by scrolling up or down.
 
