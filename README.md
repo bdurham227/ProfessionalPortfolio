@@ -1,4 +1,4 @@
-# Benjamin Durham's ProfesssionalPortfolio
+# Benjamin Durham's Professsional Portfolio
 1. [ About this Portfolio. ](#about)
 2. [ Web Adresses. ](#web-address)
 3. [ How to interact with the Portfolio and what to expect!. ](#how-to)
